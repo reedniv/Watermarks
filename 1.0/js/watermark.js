@@ -48,5 +48,5 @@ var elImg = document.querySelectorAll( 'img' );
 for ( var i = 0, len = elImg.length; i < len; i++ ) {
   console.log(i); // index
   console.log(elImg[i]); // object
-  watermarkImage(elImg[i], '<data:blog.title/>');
+  watermarkImage(elImg[i], 'REEDNIV');
 } 
